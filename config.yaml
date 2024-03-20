@@ -74,15 +74,10 @@ repositories:
     tac: maintain
   visibility: public
 - name: architecture-sig
-  collaborators:
-    OR13: admin
   teams:
     architecture-sig-maintainers: maintain
   visibility: public
 - name: bifold-wallet
-  collaborators:
-    karimStekelenburg: read
-    TimoGlastra: read
   teams:
     bifold-wallet-maintainers: maintain
   visibility: public
