@@ -110,10 +110,6 @@ repositories:
     bifold-wallet-maintainers: maintain
     mobile-wallet-test-harness-admins: admin
   visibility: public
-- name: mobile-wallet-test-harness2
-  collaborators:
-    nodlesh: admin
-  visibility: public
 - name: OID4VC-due-diligence-tf
   teams:
     oid4vc-due-diligence-tf-maintainers: maintain
