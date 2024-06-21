@@ -48,11 +48,6 @@ teams:
 - name: mobile-wallet-test-harness-maintainers
   maintainers:
   - nodlesh
-- name: oid4vc-due-diligence-tf-maintainers
-  maintainers:
-  - hkny
-  - tkuhrt
-  - tlodderstedt
 - name: safe-wallet-sig-maintainers
   maintainers:
   - tkuhrt
@@ -110,10 +105,6 @@ repositories:
     mobile-wallet-test-harness-maintainers: maintain
     bifold-wallet-maintainers: maintain
     mobile-wallet-test-harness-admins: admin
-  visibility: public
-- name: OID4VC-due-diligence-tf
-  teams:
-    oid4vc-due-diligence-tf-maintainers: maintain
   visibility: public
 - name: openwallet-foundation-landscape
   visibility: private
