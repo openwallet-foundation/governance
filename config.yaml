@@ -18,6 +18,9 @@ teams:
   - cre8
   - tkuhrt
   - tlodderstedt
+- name: credential-comparison-format-sig-admins
+  maintainers:
+  - cre8
 - name: credo-admins
   maintainers:
   - TimoGlastra
@@ -31,10 +34,12 @@ teams:
   - karimStekelenburg
 - name: digital-wallet-and-agent-overviews-sig-maintainers
   maintainers:
-  - maaikevanleuken
-  members:
   - cre8
+  members:
   - samuelmr
+- name: digital-wallet-and-agent-overviews-sig-admins
+  maintainers:
+  - cre8
 - name: lf-employees
   maintainers:
   - ryjones
@@ -81,6 +86,7 @@ repositories:
 - name: credential-format-comparison-sig
   teams:
     credential-comparison-format-sig-committers: maintain
+    credential-comparison-format-sig-admins: admin
   visibility: public
 - name: credo-ts
   teams:
@@ -100,6 +106,7 @@ repositories:
 - name: digital-wallet-and-agent-overviews-sig
   teams:
     digital-wallet-and-agent-overviews-sig-maintainers: maintain
+    digital-wallet-and-agent-overviews-sig-admins: admin
   visibility: public
 - name: mobile-wallet-test-harness
   teams:
