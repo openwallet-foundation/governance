@@ -48,10 +48,10 @@ teams:
   members:
   - SeanBohan
   - mkdolan
-- name: mobile-wallet-test-harness-admins
+- name: owl-mobile-wallet-test-harness-admins
   maintainers:
   - nodlesh
-- name: mobile-wallet-test-harness-maintainers
+- name: owl-mobile-wallet-test-harness-maintainers
   maintainers:
   - nodlesh
 - name: safe-wallet-sig-maintainers
@@ -107,12 +107,6 @@ repositories:
   teams:
     digital-wallet-and-agent-overviews-sig-maintainers: maintain
     digital-wallet-and-agent-overviews-sig-admins: admin
-  visibility: public
-- name: mobile-wallet-test-harness
-  teams:
-    mobile-wallet-test-harness-maintainers: maintain
-    bifold-wallet-maintainers: maintain
-    mobile-wallet-test-harness-admins: admin
   visibility: public
 - name: openwallet-foundation-landscape
   visibility: private
