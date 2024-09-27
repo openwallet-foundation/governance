@@ -110,6 +110,12 @@ repositories:
   visibility: public
 - name: openwallet-foundation-landscape
   visibility: private
+- name: owl-mobile-wallet-test-harness
+  teams:
+    owl-mobile-wallet-test-harness-maintainers: maintain
+    bifold-wallet-maintainers: maintain
+    owl-mobile-wallet-test-harness-admins: admin
+  visibility: public
 - name: project-proposals
   teams:
     tac: maintain
