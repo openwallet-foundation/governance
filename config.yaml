@@ -110,6 +110,11 @@ repositories:
   visibility: public
 - name: openwallet-foundation-landscape
   visibility: private
+- name: owl
+  teams:
+    owl-mobile-wallet-test-harness-maintainers: maintain
+    owl-mobile-wallet-test-harness-admins: admin
+  visibility: public  
 - name: owl-mobile-wallet-test-harness
   teams:
     owl-mobile-wallet-test-harness-maintainers: maintain
