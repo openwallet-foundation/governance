@@ -1,136 +1,172 @@
 teams:
-- name: architecture-sig-maintainers
-  maintainers:
-  - tkuhrt
-- name: bifold-wallet-maintainers
-  maintainers:
-  - jleach
-  members:
-  - amanji
-  - bryce-mcmath
-  - cvarjao
-  - jcdrouin21
-  - MosCD3
-  - thiagoromanos
-  - wadeking98
-- name: credential-comparison-format-sig-committers
-  maintainers:
-  - cre8
-  - tkuhrt
-  - tlodderstedt
-- name: credential-comparison-format-sig-admins
-  maintainers:
-  - cre8
-- name: credo-admins
-  maintainers:
-  - TimoGlastra
-- name: credo-maintainers
-  maintainers:
-  - jakubkoci
-  - TimoGlastra
-  members:
-  - berendsliedrecht
-  - genaris
-  - karimStekelenburg
-- name: digital-wallet-and-agent-overviews-sig-maintainers
-  maintainers:
-  - cre8
-  members:
-  - samuelmr
-- name: digital-wallet-and-agent-overviews-sig-admins
-  maintainers:
-  - cre8
-- name: lf-employees
-  maintainers:
-  - ryjones
-  - strawberry-baked-alaska
-  - tbenzies
-  members:
-  - SeanBohan
-  - mkdolan
-- name: owl-mobile-wallet-test-harness-admins
-  maintainers:
-  - nodlesh
-- name: owl-mobile-wallet-test-harness-maintainers
-  maintainers:
-  - nodlesh
-- name: safe-wallet-sig-maintainers
-  maintainers:
-  - tkuhrt
-  members:
-  - skounis
-  - darrellodonnell
-- name: tac
-  maintainers:
-  - tkuhrt
-  members:
-  - davidz25
-  - rolsonquadras
-  - petecool
-  - aceshim
-  - skounis
-  - swcurran
-  - wenjing
+  - name: acapy-admins
+    maintainers:
+      - swcurran
+    members:
+      - WadeBarnes
+      - TimoGlastra
+      - andrewwhitehead
+      - dbluhm
+  - name: acapy-committers
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - andrewwhitehead
+      - TimoGlastra
+      - WadeBarnes
+      - amanji
+      - chumbert
+      - dbluhm
+      - esune
+      - ianco
+      - jamshale
+      - ff137
+      - thiagoromanos
+      - PatStLouis
+  - name: acapy-contributors
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - WadeBarnes
+      - Jsyro
+      - dbluhm
+      - esune
+      - ianco
+      - jamshale
+  - name: architecture-sig-maintainers
+    maintainers:
+      - tkuhrt
+  - name: bifold-wallet-maintainers
+    maintainers:
+      - jleach
+    members:
+      - amanji
+      - bryce-mcmath
+      - cvarjao
+      - wadeking98
+      - jcdrouin21
+      - MosCD3
+      - thiagoromanos
+  - name: credential-comparison-format-sig-committers
+    maintainers:
+      - cre8
+      - tkuhrt
+      - tlodderstedt
+  - name: credential-comparison-format-sig-admins
+    maintainers:
+      - cre8
+  - name: credo-admins
+    maintainers:
+      - TimoGlastra
+  - name: credo-maintainers
+    maintainers:
+      - jakubkoci
+      - TimoGlastra
+    members:
+      - berendsliedrecht
+      - genaris
+      - karimStekelenburg
+  - name: digital-wallet-and-agent-overviews-sig-maintainers
+    maintainers:
+      - cre8
+    members:
+      - samuelmr
+  - name: digital-wallet-and-agent-overviews-sig-admins
+    maintainers:
+      - cre8
+  - name: lf-employees
+    maintainers:
+      - ryjones
+      - strawberry-baked-alaska
+      - tbenzies
+    members:
+      - SeanBohan
+      - mkdolan
+  - name: owl-mobile-wallet-test-harness-admins
+    maintainers:
+      - nodlesh
+  - name: owl-mobile-wallet-test-harness-maintainers
+    maintainers:
+      - nodlesh
+  - name: safe-wallet-sig-maintainers
+    maintainers:
+      - tkuhrt
+    members:
+      - skounis
+      - darrellodonnell
+  - name: tac
+    maintainers:
+      - tkuhrt
+    members:
+      - davidz25
+      - rolsonquadras
+      - petecool
+      - aceshim
+      - skounis
+      - swcurran
+      - wenjing
 repositories:
-- name: .github
-  teams:
-    tac: maintain
-  visibility: public
-- name: architecture-sig
-  teams:
-    architecture-sig-maintainers: maintain
-  visibility: public
-- name: bifold-wallet
-  teams:
-    bifold-wallet-maintainers: maintain
-  visibility: public
-- name: credential-format-comparison-sig
-  teams:
-    credential-comparison-format-sig-committers: maintain
-    credential-comparison-format-sig-admins: admin
-  visibility: public
-- name: credo-ts
-  teams:
-    credo-admins: admin
-    credo-maintainers: maintain
-  visibility: public
-- name: credo-ts-docs
-  teams:
-    credo-maintainers: maintain
-    credo-admins: admin
-  visibility: public
-- name: credo-ts-ext
-  teams:
-    credo-maintainers: maintain
-    credo-admins: admin
-  visibility: public
-- name: digital-wallet-and-agent-overviews-sig
-  teams:
-    digital-wallet-and-agent-overviews-sig-maintainers: maintain
-    digital-wallet-and-agent-overviews-sig-admins: admin
-  visibility: public
-- name: openwallet-foundation-landscape
-  visibility: private
-- name: owl
-  teams:
-    owl-mobile-wallet-test-harness-maintainers: maintain
-    owl-mobile-wallet-test-harness-admins: admin
-  visibility: public  
-- name: owl-mobile-wallet-test-harness
-  teams:
-    owl-mobile-wallet-test-harness-maintainers: maintain
-    bifold-wallet-maintainers: maintain
-    owl-mobile-wallet-test-harness-admins: admin
-  visibility: public
-- name: project-proposals
-  teams:
-    tac: maintain
-  visibility: public
-- name: safe-wallet-sig
-  teams:
-    safe-wallet-sig-maintainers: maintain
-  visibility: public
-- name: tac
-  teams:
-    tac: maintain
-  visibility: public
+  - name: .github
+    teams:
+      tac: maintain
+    visibility: public
+  - name: architecture-sig
+    teams:
+      architecture-sig-maintainers: maintain
+    visibility: public
+  - name: bifold-wallet
+    teams:
+      bifold-wallet-maintainers: maintain
+    visibility: public
+  - name: credential-format-comparison-sig
+    teams:
+      credential-comparison-format-sig-committers: maintain
+      credential-comparison-format-sig-admins: admin
+    visibility: public
+  - name: credo-ts
+    teams:
+      credo-admins: admin
+      credo-maintainers: maintain
+    visibility: public
+  - name: credo-ts-docs
+    teams:
+      credo-maintainers: maintain
+      credo-admins: admin
+    visibility: public
+  - name: credo-ts-ext
+    teams:
+      credo-maintainers: maintain
+      credo-admins: admin
+    visibility: public
+  - name: digital-wallet-and-agent-overviews-sig
+    teams:
+      digital-wallet-and-agent-overviews-sig-maintainers: maintain
+      digital-wallet-and-agent-overviews-sig-admins: admin
+    visibility: public
+  - name: openwallet-foundation-landscape
+    visibility: private
+  - name: owl
+    teams:
+      owl-mobile-wallet-test-harness-maintainers: maintain
+      owl-mobile-wallet-test-harness-admins: admin
+    visibility: public
+  - name: owl-mobile-wallet-test-harness
+    teams:
+      owl-mobile-wallet-test-harness-maintainers: maintain
+      bifold-wallet-maintainers: maintain
+      owl-mobile-wallet-test-harness-admins: admin
+    visibility: public
+  - name: project-proposals
+    teams:
+      tac: maintain
+    visibility: public
+  - name: safe-wallet-sig
+    teams:
+      safe-wallet-sig-maintainers: maintain
+    visibility: public
+  - name: tac
+    teams:
+      tac: maintain
+    visibility: public
