@@ -112,6 +112,18 @@ repositories:
     teams:
       tac: maintain
     visibility: public
+  - name: acapy
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: read
+    visibility: public
+  - name: acapy-plugins
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: read
+    visibility: public
   - name: architecture-sig
     teams:
       architecture-sig-maintainers: maintain
