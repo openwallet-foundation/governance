@@ -84,6 +84,28 @@ teams:
     members:
       - SeanBohan
       - mkdolan
+  - name: owl-agent-test-harness-admins
+    maintainers:
+      - nodlesh
+      - swcurran
+  - name: owl-agent-test-harness-maintainers
+    maintainers:
+      - nodlesh
+  - name: owl-akrida-admins
+    maintainers:
+      - swcurran
+    members:
+      - KimEbert42
+  - name: owl-akrida-maintainers
+    maintainers:
+      - swcurran
+    members:
+      - KimEbert42
+      - anwalker293
+      - loneil
+      - rajpalc7
+      - GHkrishna
+      - dbluhm
   - name: owl-mobile-wallet-test-harness-admins
     maintainers:
       - nodlesh
@@ -134,8 +156,8 @@ repositories:
     visibility: public
   - name: credential-format-comparison-sig
     teams:
-      credential-comparison-format-sig-committers: maintain
       credential-comparison-format-sig-admins: admin
+      credential-comparison-format-sig-committers: maintain
     visibility: public
   - name: credo-ts
     teams:
@@ -144,31 +166,31 @@ repositories:
     visibility: public
   - name: credo-ts-docs
     teams:
-      credo-maintainers: maintain
       credo-admins: admin
+      credo-maintainers: maintain
     visibility: public
   - name: credo-ts-ext
     teams:
-      credo-maintainers: maintain
       credo-admins: admin
+      credo-maintainers: maintain
     visibility: public
   - name: digital-wallet-and-agent-overviews-sig
     teams:
-      digital-wallet-and-agent-overviews-sig-maintainers: maintain
       digital-wallet-and-agent-overviews-sig-admins: admin
+      digital-wallet-and-agent-overviews-sig-maintainers: maintain
     visibility: public
   - name: openwallet-foundation-landscape
     visibility: private
   - name: owl
     teams:
-      owl-mobile-wallet-test-harness-maintainers: maintain
       owl-mobile-wallet-test-harness-admins: admin
+      owl-mobile-wallet-test-harness-maintainers: maintain
     visibility: public
   - name: owl-mobile-wallet-test-harness
     teams:
-      owl-mobile-wallet-test-harness-maintainers: maintain
       bifold-wallet-maintainers: maintain
       owl-mobile-wallet-test-harness-admins: admin
+      owl-mobile-wallet-test-harness-maintainers: maintain
     visibility: public
   - name: project-proposals
     teams:
@@ -182,3 +204,16 @@ repositories:
     teams:
       tac: maintain
     visibility: public
+#  - name: owl-agent-test-harness
+#    teams:
+#      acapy-committers: maintain
+#      owl-agent-test-harness-admins: admin
+#      owl-agent-test-harness-maintainers: maintain
+#    visibility: public
+#  - name: owl-akrida
+#    teams:
+#      acapy-committers: maintain
+#      owl-akrida-admins: admin
+#      owl-akrida-maintainers: maintain
+#    visibility: public
+
