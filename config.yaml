@@ -204,16 +204,15 @@ repositories:
     teams:
       tac: maintain
     visibility: public
-#  - name: owl-agent-test-harness
-#    teams:
-#      acapy-committers: maintain
-#      owl-agent-test-harness-admins: admin
-#      owl-agent-test-harness-maintainers: maintain
-#    visibility: public
-#  - name: owl-akrida
-#    teams:
-#      acapy-committers: maintain
-#      owl-akrida-admins: admin
-#      owl-akrida-maintainers: maintain
-#    visibility: public
-
+  - name: owl-agent-test-harness
+    teams:
+      acapy-committers: maintain
+      owl-agent-test-harness-admins: admin
+      owl-agent-test-harness-maintainers: maintain
+    visibility: public
+  - name: owl-akrida
+    teams:
+      acapy-committers: maintain
+      owl-akrida-admins: admin
+      owl-akrida-maintainers: maintain
+    visibility: public
