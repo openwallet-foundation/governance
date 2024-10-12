@@ -49,6 +49,11 @@ teams:
       - jcdrouin21
       - MosCD3
       - thiagoromanos
+  - name: bots
+    maintainers:
+      - ryjones
+    members:
+      - owf-bot
   - name: credential-comparison-format-sig-committers
     maintainers:
       - cre8
@@ -207,6 +212,7 @@ repositories:
   - name: owl-agent-test-harness
     teams:
       acapy-committers: maintain
+      bots: maintain
       owl-agent-test-harness-admins: admin
       owl-agent-test-harness-maintainers: maintain
     visibility: public
