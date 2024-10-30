@@ -123,6 +123,19 @@ teams:
     members:
       - skounis
       - darrellodonnell
+  - name: sd-jwt-js-admin
+    maintainers:
+    - cre8
+    members:
+    - lukasjhan
+  - name: sd-jwt-js-maintainers
+    maintainers:
+    - cre8
+    members:
+    - aceshim
+    - berendsliedrecht
+    - lukasjhan
+    - zustkeeper
   - name: tac
     maintainers:
       - tkuhrt
@@ -204,6 +217,11 @@ repositories:
   - name: safe-wallet-sig
     teams:
       safe-wallet-sig-maintainers: maintain
+    visibility: public
+  - name: sd-jwt-js
+    teams:
+      sd-jwt-js-maintainers: maintain
+      sd-jwt-js-admin: admin
     visibility: public
   - name: tac
     teams:
