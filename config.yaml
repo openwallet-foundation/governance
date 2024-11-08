@@ -48,13 +48,13 @@ teams:
     members:
       - berendsliedrecht
       - genaris
-  - name: askar-javascript-admins
+  - name: askar-wrapper-javascript-admins
     maintainers:
       - TimoGlastra
     members:
       - andrewwhitehead
       - swcurran
-  - name: askar-javascript-maintainers
+  - name: askar-wrapper-javascript-maintainers
     maintainers:
       - TimoGlastra
     members:
@@ -194,11 +194,11 @@ repositories:
     teams:
       askar-admins: admin
       askar-maintainers: maintain
-  - name: askar-javascript
+  - name: askar-wrapper-javascript
     teams:
-      askar-javascript-admins: admin
+      askar-wrapper-javascript-admins: admin
       askar-admins: admin
-      askar-javascript-maintainers: maintain
+      askar-wrapper-javascript-maintainers: maintain
       askar-maintainers: maintain
   - name: architecture-sig
     teams:
