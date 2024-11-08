@@ -190,11 +190,11 @@ repositories:
       acapy-committers: maintain
       acapy-contributors: read
     visibility: public
-    - name: askar
+  - name: askar
     teams:
       askar-admins: admin
       askar-maintainers: maintain
-    - name: askar-javascript
+  - name: askar-javascript
     teams:
       askar-javascript-admins: admin
       askar-admins: admin
