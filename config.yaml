@@ -124,9 +124,10 @@ teams:
       - nodlesh
   - name: owl-akrida-admins
     maintainers:
-      - swcurran
-    members:
       - KimEbert42
+    members:
+      - swcurran
+      - nodlesh
   - name: owl-akrida-maintainers
     maintainers:
       - swcurran
