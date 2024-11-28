@@ -161,6 +161,7 @@ teams:
   - name: owl-mobile-wallet-test-harness-committers
     maintainers:
       - nodlesh
+    members:
       - AmarjeetAkv
   - name: safe-wallet-sig-maintainers
     maintainers:
