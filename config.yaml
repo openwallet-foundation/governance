@@ -119,20 +119,37 @@ teams:
     maintainers:
       - nodlesh
       - swcurran
-  - name: owl-agent-test-harness-maintainers
+  - name: owl-agent-test-harness-committers
     maintainers:
       - nodlesh
+    members:
+      - AmarjeetAkv
+      - jamshale
+      - gmulhearn
+      - genaris
+      - Patrik-Stas
+      - WadeBarnes
+      - geethutnair94
+      - usingtechnology
+      - mirgee
+      - Jsyro
+      - lauravuo
+      - PatStLouis
+      - tdiesler
+      - ianco
+      - Moopli
   - name: owl-akrida-admins
     maintainers:
       - KimEbert42
     members:
       - swcurran
       - nodlesh
-  - name: owl-akrida-maintainers
+  - name: owl-akrida-committers
     maintainers:
-      - swcurran
-    members:
       - KimEbert42
+    members:
+      - nodlesh
+      - AmarjeetAkv
       - anwalker293
       - loneil
       - rajpalc7
@@ -141,9 +158,10 @@ teams:
   - name: owl-mobile-wallet-test-harness-admins
     maintainers:
       - nodlesh
-  - name: owl-mobile-wallet-test-harness-maintainers
+  - name: owl-mobile-wallet-test-harness-committers
     maintainers:
       - nodlesh
+      - AmarjeetAkv
   - name: safe-wallet-sig-maintainers
     maintainers:
       - tkuhrt
@@ -239,13 +257,17 @@ repositories:
   - name: owl
     teams:
       owl-mobile-wallet-test-harness-admins: admin
-      owl-mobile-wallet-test-harness-maintainers: maintain
+      owl-mobile-wallet-test-harness-committers: triage
+      owl-agent-test-harness-admins: admin
+      owl-agent-test-harness-committers: triage
+      owl-akrida-admins: admin
+      owl-akrida-committers: triage
     visibility: public
   - name: owl-mobile-wallet-test-harness
     teams:
       bifold-wallet-maintainers: maintain
       owl-mobile-wallet-test-harness-admins: admin
-      owl-mobile-wallet-test-harness-maintainers: maintain
+      owl-mobile-wallet-test-harness-committers: maintain
     visibility: public
   - name: project-proposals
     teams:
@@ -267,13 +289,15 @@ repositories:
   - name: owl-agent-test-harness
     teams:
       acapy-committers: maintain
+      credo-maintainers: maintain
       bots: maintain
       owl-agent-test-harness-admins: admin
-      owl-agent-test-harness-maintainers: maintain
+      owl-agent-test-harness-committers: maintain
     visibility: public
   - name: owl-akrida
     teams:
       acapy-committers: maintain
+      credo-maintainers: maintain
       owl-akrida-admins: admin
-      owl-akrida-maintainers: maintain
+      owl-akrida-committers: maintain
     visibility: public
