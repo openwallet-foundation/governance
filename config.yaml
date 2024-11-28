@@ -35,6 +35,7 @@ teams:
       - esune
       - ianco
       - jamshale
+      - TheTechmage
   - name: askar-admins
     maintainers:
       - andrewwhitehead
@@ -104,6 +105,43 @@ teams:
       - cre8
     members:
       - samuelmr
+  - name: didcomm-admins
+    maintainers:
+      - dbluhm
+    members:
+      - WadeBarnes
+      - TimoGlastra
+      - andrewwhitehead
+      - swcurran
+  - name: didcomm-committers
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - andrewwhitehead
+      - TimoGlastra
+      - WadeBarnes
+      - amanji
+      - chumbert
+      - dbluhm
+      - esune
+      - ianco
+      - jamshale
+      - ff137
+      - thiagoromanos
+      - PatStLouis
+      - TheTechmage
+  - name: didcomm-contributors
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - WadeBarnes
+      - Jsyro
+      - dbluhm
+      - esune
+      - ianco
+      - jamshale
   - name: digital-wallet-and-agent-overviews-sig-admins
     maintainers:
       - cre8
@@ -190,6 +228,24 @@ repositories:
       acapy-committers: maintain
       acapy-contributors: read
     visibility: public
+  - name: acapy-controllers
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: read
+    visibility: public
+  - name: acapy-tools
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: read
+    visibility: public
+  - name: acapy-endorser-service
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: read
+    visibility: public
   - name: askar
     teams:
       askar-admins: admin
@@ -227,6 +283,12 @@ repositories:
     teams:
       credo-admins: admin
       credo-maintainers: maintain
+    visibility: public
+  - name: didcomm-mediator-service
+    teams:
+      didcomm-admins: admin
+      didcomm-committers: maintain
+      didcomm-contributors: read
     visibility: public
   - name: digital-wallet-and-agent-overviews-sig
     teams:
