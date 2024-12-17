@@ -36,6 +36,7 @@ teams:
       - ianco
       - jamshale
       - TheTechmage
+      - loneil
   - name: askar-admins
     maintainers:
       - andrewwhitehead
@@ -251,6 +252,12 @@ repositories:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: read
+    visibility: public
+  - name: acapy-vc-authn-oidc
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: triage
     visibility: public
   - name: askar
     teams:
