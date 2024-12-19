@@ -24,6 +24,7 @@ teams:
       - ff137
       - thiagoromanos
       - PatStLouis
+      - loneil
   - name: acapy-contributors
     maintainers:
       - swcurran
