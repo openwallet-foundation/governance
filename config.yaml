@@ -147,7 +147,8 @@ teams:
       - swcurran
   - name: owl-agent-test-harness-committers
     maintainers:
-      - nodlesh
+      - swcurran
+      - PatStLouis
     members:
       - AmarjeetAkv
       - jamshale
@@ -160,10 +161,10 @@ teams:
       - mirgee
       - Jsyro
       - lauravuo
-      - PatStLouis
       - tdiesler
       - ianco
       - Moopli
+      - nodlesh
   - name: owl-akrida-admins
     maintainers:
       - KimEbert42
