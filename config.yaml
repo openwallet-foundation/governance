@@ -94,6 +94,19 @@ teams:
       - berendsliedrecht
       - genaris
       - auer-martin
+  - name: didcomm-mediator-credo-admin
+    maintainers:
+      - TimoGlastra
+      - jleach
+  - name: didcomm-mediator-credo-maintainers
+    maintainers:
+      - jleach
+      - TimoGlastra
+    members:
+      - jleach
+      - sairanjit
+      - genaris
+      - GHkrishna
   - name: didcomm-admins
     maintainers:
       - dbluhm
@@ -299,6 +312,13 @@ repositories:
       didcomm-admins: admin
       didcomm-committers: maintain
       didcomm-contributors: read
+    visibility: public
+  - name: didcomm-mediator-credo
+    teams:
+      credo-admins: admin
+      credo-maintainers: maintain
+      didcomm-mediator-credo-maintainers: maintain
+      didcomm-mediator-credo-admin: admin
     visibility: public
   - name: digital-wallet-and-agent-overviews-sig
     teams:
