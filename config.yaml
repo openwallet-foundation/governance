@@ -324,6 +324,10 @@ repositories:
       digital-wallet-and-agent-overviews-sig-admins: admin
       digital-wallet-and-agent-overviews-sig-maintainers: maintain
     visibility: public
+  - name: governance
+    teams:
+      tac: maintain
+    visibility: public
   - name: openwallet-foundation-landscape
     visibility: private
   - name: owl
