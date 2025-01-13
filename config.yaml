@@ -71,10 +71,11 @@ teams:
     maintainers:
       - jleach
     members:
+      - al-rosenthal
       - amanji
       - bryce-mcmath
       - cvarjao
-      - wadeking98
+      - fc-santos
       - jcdrouin21
       - MosCD3
       - thiagoromanos
@@ -210,17 +211,17 @@ teams:
       - darrellodonnell
   - name: sd-jwt-js-admin
     maintainers:
-    - cre8
+      - cre8
     members:
-    - lukasjhan
+      - lukasjhan
   - name: sd-jwt-js-maintainers
     maintainers:
-    - cre8
+      - cre8
     members:
-    - aceshim
-    - berendsliedrecht
-    - lukasjhan
-    - zustkeeper
+      - aceshim
+      - berendsliedrecht
+      - lukasjhan
+      - zustkeeper
   - name: tac
     maintainers:
       - tkuhrt
