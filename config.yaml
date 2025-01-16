@@ -320,6 +320,13 @@ repositories:
       didcomm-mediator-credo-maintainers: maintain
       didcomm-mediator-credo-admin: admin
     visibility: public
+  - name: didcomm-mediator-socketdock
+    teams:
+      credo-admins: admin
+      credo-maintainers: maintain
+      didcomm-mediator-credo-maintainers: maintain
+      didcomm-mediator-credo-admin: admin
+    visibility: public
   - name: digital-wallet-and-agent-overviews-sig
     teams:
       digital-wallet-and-agent-overviews-sig-admins: admin
