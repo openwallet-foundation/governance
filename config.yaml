@@ -38,6 +38,7 @@ teams:
       - jamshale
       - TheTechmage
       - loneil
+      - Gavinok
   - name: askar-admins
     maintainers:
       - andrewwhitehead
@@ -192,7 +193,6 @@ teams:
       - AmarjeetAkv
       - anwalker293
       - loneil
-      - rajpalc7
       - GHkrishna
       - dbluhm
   - name: owl-mobile-wallet-test-harness-admins
