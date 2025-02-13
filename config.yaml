@@ -224,13 +224,12 @@ teams:
       - zustkeeper
   - name: tac
     maintainers:
-      - tkuhrt
+      - skounis
     members:
       - davidz25
       - rolsonquadras
       - stefan-kauhaus
       - aceshim
-      - skounis
       - swcurran
       - wenjing
 repositories:
