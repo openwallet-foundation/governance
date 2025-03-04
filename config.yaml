@@ -11,7 +11,6 @@ teams:
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - andrewwhitehead
       - TimoGlastra
       - WadeBarnes
@@ -29,7 +28,6 @@ teams:
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - WadeBarnes
       - Jsyro
       - dbluhm
@@ -120,7 +118,6 @@ teams:
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - andrewwhitehead
       - TimoGlastra
       - WadeBarnes
@@ -133,7 +130,6 @@ teams:
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - WadeBarnes
       - dbluhm
       - esune
@@ -169,14 +165,12 @@ teams:
       - genaris
       - Patrik-Stas
       - WadeBarnes
-      - geethutnair94
       - usingtechnology
       - mirgee
       - Jsyro
       - lauravuo
       - tdiesler
       - ianco
-      - Moopli
       - nodlesh
   - name: owl-akrida-admins
     maintainers:
