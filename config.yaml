@@ -232,6 +232,12 @@ teams:
       - aceshim
       - swcurran
       - wenjing
+  - name: vcx-maintainers
+    maintainers:
+      - JamesKEbert
+    members:
+      - gmulhearn
+      - lukewli-anonyome
 repositories:
   - name: .github
     teams:
@@ -383,4 +389,9 @@ repositories:
       credo-maintainers: maintain
       owl-akrida-admins: admin
       owl-akrida-committers: maintain
+    visibility: public
+  - name: vcx
+    teams:
+      vcx-maintainers: maintain
+      bots: maintain
     visibility: public
