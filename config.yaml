@@ -154,7 +154,6 @@ teams:
     members:
       - SeanBohan
       - mkdolan
-      - strawberry-baked-alaska
   - name: owl-agent-test-harness-admins
     maintainers:
       - nodlesh
