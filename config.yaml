@@ -66,13 +66,17 @@ teams:
   - name: architecture-sig-maintainers
     maintainers:
       - tkuhrt
+  - name: bifold-wallet-admins
+    maintainers:
+      - jleach
+      - cvarjao
   - name: bifold-wallet-maintainers
     maintainers:
       - jleach
+      - bryce-mcmath
     members:
       - al-rosenthal
       - amanji
-      - bryce-mcmath
       - cvarjao
       - fc-santos
       - jcdrouin21
@@ -290,6 +294,7 @@ repositories:
     visibility: public
   - name: bifold-wallet
     teams:
+      bifold-wallet-admins: admin
       bifold-wallet-maintainers: maintain
     visibility: public
   - name: credo-ts
@@ -349,6 +354,7 @@ repositories:
     visibility: public
   - name: owl-mobile-wallet-test-harness
     teams:
+      bifold-wallet-admins: admin
       bifold-wallet-maintainers: maintain
       owl-mobile-wallet-test-harness-admins: admin
       owl-mobile-wallet-test-harness-committers: maintain
