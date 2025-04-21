@@ -70,12 +70,13 @@ teams:
     maintainers:
       - jleach
       - cvarjao
+      - bryce-mcmath
   - name: bifold-wallet-maintainers
     maintainers:
       - jleach
       - bryce-mcmath
-    members:
       - al-rosenthal
+    members:
       - amanji
       - cvarjao
       - fc-santos
