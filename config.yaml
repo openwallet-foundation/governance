@@ -328,10 +328,9 @@ repositories:
     visibility: public
   - name: didcomm-mediator-socketdock
     teams:
-      credo-admins: admin
-      credo-maintainers: maintain
-      didcomm-mediator-credo-maintainers: maintain
-      didcomm-mediator-credo-admin: admin
+      didcomm-admins: admin
+      didcomm-committers: maintain
+      didcomm-contributors: read
     visibility: public
   - name: digital-wallet-and-agent-overviews-sig
     teams:
