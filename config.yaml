@@ -116,6 +116,7 @@ teams:
       - esune
       - jamshale
       - loneil
+      - cvarjao
   - name: didcomm-admins
     maintainers:
       - dbluhm
