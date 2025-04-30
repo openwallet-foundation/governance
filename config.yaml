@@ -111,6 +111,11 @@ teams:
       - sairanjit
       - genaris
       - GHkrishna
+      - bryce-mcmath
+      - al-rosenthal
+      - esune
+      - jamshale
+      - loneil
   - name: didcomm-admins
     maintainers:
       - dbluhm
@@ -325,6 +330,7 @@ repositories:
       credo-maintainers: maintain
       didcomm-mediator-credo-maintainers: maintain
       didcomm-mediator-credo-admin: admin
+      didcomm-committers: maintain
     visibility: public
   - name: didcomm-mediator-socketdock
     teams:
