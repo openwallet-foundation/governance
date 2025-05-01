@@ -331,7 +331,7 @@ repositories:
       credo-maintainers: maintain
       didcomm-mediator-credo-maintainers: maintain
       didcomm-mediator-credo-admin: admin
-      didcomm-committers: maintain
+      didcomm-committers: write
     visibility: public
   - name: didcomm-mediator-socketdock
     teams:
