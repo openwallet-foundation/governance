@@ -154,6 +154,13 @@ teams:
   - name: digital-wallet-and-agent-overviews-sig-admins
     maintainers:
       - cre8
+  - name: helm-charts-admins
+    maintainers:
+      - esune
+    members:
+      - WadeBarnes
+      - swcurran
+      - i5okie
   - name: lf-employees
     maintainers:
       - ryjones
@@ -347,6 +354,11 @@ repositories:
   - name: governance
     teams:
       tac: maintain
+    visibility: public
+  - name: helm-charts
+    teams:
+      tac: maintain
+      helm-charts-admins: admin
     visibility: public
   - name: openwallet-foundation-landscape
     visibility: private
