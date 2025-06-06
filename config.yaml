@@ -164,10 +164,8 @@ teams:
   - name: lf-employees
     maintainers:
       - ryjones
-      - tbenzies
     members:
       - SeanBohan
-      - mkdolan
   - name: owl-agent-test-harness-admins
     maintainers:
       - nodlesh
