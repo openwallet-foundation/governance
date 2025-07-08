@@ -247,7 +247,6 @@ teams:
     maintainers:
       - gmulhearn
     members:
-      - gmulhearn
       - dc-anon
 repositories:
   - name: .github
