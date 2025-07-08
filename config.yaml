@@ -245,10 +245,10 @@ teams:
       - wenjing
   - name: vcx-maintainers
     maintainers:
-      - JamesKEbert
+      - gmulhearn
     members:
       - gmulhearn
-      - lukewli-anonyome
+      - dc-anon
 repositories:
   - name: .github
     teams:
