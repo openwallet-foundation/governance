@@ -278,13 +278,13 @@ repositories:
       acapy-committers: maintain
       acapy-contributors: read
     visibility: public
-- name: acapy-minimal-example
-  teams:
-    acapy-admins: admin
-    acapy-committers: maintain
-    acapy-contributors: read
-    acapy-me-maintainers: maintain
-  visibility: public
+  - name: acapy-minimal-example
+    teams:
+      acapy-admins: admin
+      acapy-committers: maintain
+      acapy-contributors: read
+      acapy-me-maintainers: maintain
+    visibility: public
   - name: acapy-tools
     teams:
       acapy-admins: admin
