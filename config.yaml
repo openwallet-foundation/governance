@@ -399,12 +399,12 @@ repositories:
       tac: maintain
       helm-charts-admins: admin
     visibility: public
- - name: multipaz
-   teams:
-     multipaz-admins: admin
-     multipaz-maintainers: maintain
-     multipaz-team: triage
-   visibility: public
+  - name: multipaz
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-team: triage
+    visibility: public
   - name: openwallet-foundation-landscape
     visibility: private
   - name: owl
