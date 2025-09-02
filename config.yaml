@@ -405,6 +405,30 @@ repositories:
       multipaz-maintainers: maintain
       multipaz-team: triage
     visibility: public
+  - name: multipaz-extras
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-team: triage
+    visibility: public
+  - name: multipaz-samples
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-team: triage
+    visibility: public
+  - name: multipaz-identity-reader
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-team: triage
+    visibility: public
+  - name: multipaz-developer-website
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-team: triage
+    visibility: public
   - name: openwallet-foundation-landscape
     visibility: private
   - name: owl
