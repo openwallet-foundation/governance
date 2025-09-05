@@ -179,6 +179,14 @@ teams:
       - davidz25
     members:
       - troykensinger
+  - name: multipaz-developer-website-maintainers
+    maintainers:
+      - davidz25
+    members:
+      - dzuluaga
+      - VishnuSanal
+      - itsme291
+      - hanluOMH
   - name: multipaz-maintainers
     maintainers:
       - davidz25
@@ -426,6 +434,7 @@ repositories:
   - name: multipaz-developer-website
     teams:
       multipaz-admins: admin
+      multipaz-developer-website-maintainers: maintain
       multipaz-maintainers: maintain
       multipaz-team: triage
     visibility: public
