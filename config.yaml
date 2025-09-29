@@ -104,9 +104,10 @@ teams:
       - jakubkoci
       - TimoGlastra
     members:
+      - auer-martin
       - berendsliedrecht
       - genaris
-      - auer-martin
+      - hacdias
   - name: didcomm-mediator-credo-admin
     maintainers:
       - TimoGlastra
