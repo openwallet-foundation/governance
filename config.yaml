@@ -71,9 +71,9 @@ teams:
       - cvarjao
       - berendsliedrecht
       - genaris
-  - name: architecture-sig-maintainers
-    maintainers:
-      - tkuhrt
+#  - name: architecture-sig-maintainers
+#    maintainers:
+#      - ryjones
   - name: bifold-wallet-admins
     maintainers:
       - jleach
@@ -260,9 +260,8 @@ teams:
       - AmarjeetAkv
   - name: safe-wallet-sig-maintainers
     maintainers:
-      - tkuhrt
-    members:
       - skounis
+    members:
       - darrellodonnell
   - name: sd-jwt-js-admin
     maintainers:
@@ -350,10 +349,10 @@ repositories:
       askar-admins: admin
       askar-wrapper-javascript-maintainers: maintain
       askar-maintainers: maintain
-  - name: architecture-sig
-    teams:
-      architecture-sig-maintainers: maintain
-    visibility: public
+#  - name: architecture-sig
+#    teams:
+#      architecture-sig-maintainers: maintain
+#    visibility: public
   - name: bifold-wallet
     teams:
       bifold-wallet-admins: admin
