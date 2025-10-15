@@ -278,6 +278,10 @@ teams:
       - berendsliedrecht
       - lukasjhan
       - zustkeeper
+  - name: security-managers
+    maintainers:
+      - SeanBohan
+      - ryjones
   - name: tac
     maintainers:
       - skounis
@@ -296,6 +300,7 @@ teams:
 repositories:
   - name: .github
     teams:
+      security-managers: read
       tac: maintain
     visibility: public
   - name: acapy
@@ -303,18 +308,21 @@ repositories:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: read
+      security-managers: read
     visibility: public
   - name: acapy-plugins
     teams:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: read
+      security-managers: read
     visibility: public
   - name: acapy-controllers
     teams:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: read
+      security-managers: read
     visibility: public
   - name: acapy-minimal-example
     teams:
@@ -322,35 +330,42 @@ repositories:
       acapy-committers: maintain
       acapy-contributors: read
       acapy-me-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: acapy-tools
     teams:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: read
+      security-managers: read
     visibility: public
   - name: acapy-endorser-service
     teams:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: read
+      security-managers: read
     visibility: public
   - name: acapy-vc-authn-oidc
     teams:
       acapy-admins: admin
       acapy-committers: maintain
       acapy-contributors: triage
+      security-managers: read
     visibility: public
   - name: askar
     teams:
       askar-admins: admin
       askar-maintainers: maintain
+      security-managers: read
   - name: askar-wrapper-javascript
     teams:
       askar-wrapper-javascript-admins: admin
       askar-admins: admin
       askar-wrapper-javascript-maintainers: maintain
       askar-maintainers: maintain
+      security-managers: read
+    visibility: public
 #  - name: architecture-sig
 #    teams:
 #      architecture-sig-maintainers: maintain
@@ -359,27 +374,32 @@ repositories:
     teams:
       bifold-wallet-admins: admin
       bifold-wallet-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: credo-ts
     teams:
       credo-admins: admin
       credo-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: credo-ts-docs
     teams:
       credo-admins: admin
       credo-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: credo-ts-ext
     teams:
       credo-admins: admin
       credo-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: didcomm-mediator-service
     teams:
       didcomm-admins: admin
       didcomm-committers: maintain
       didcomm-contributors: read
+      security-managers: read
     visibility: public
   - name: didcomm-mediator-credo
     teams:
@@ -388,38 +408,45 @@ repositories:
       didcomm-mediator-credo-maintainers: maintain
       didcomm-mediator-credo-admin: admin
       didcomm-committers: write
+      security-managers: read
     visibility: public
   - name: didcomm-mediator-socketdock
     teams:
       didcomm-admins: admin
       didcomm-committers: maintain
       didcomm-contributors: read
+      security-managers: read
     visibility: public
   - name: digital-wallet-and-agent-overviews-sig
     teams:
       digital-wallet-and-agent-overviews-sig-admins: admin
       digital-wallet-and-agent-overviews-sig-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: governance
     teams:
+      security-managers: read
       tac: maintain
     visibility: public
   - name: helm-charts
     teams:
-      tac: maintain
       helm-charts-admins: admin
+      security-managers: read
+      tac: maintain
     visibility: public
   - name: multipaz
     teams:
       multipaz-admins: admin
       multipaz-maintainers: maintain
       multipaz-team: triage
+      security-managers: read
     visibility: public
   - name: multipaz-extras
     teams:
       multipaz-admins: admin
       multipaz-maintainers: maintain
       multipaz-team: triage
+      security-managers: read
     visibility: public
   - name: multipaz-samples
     teams:
@@ -427,12 +454,14 @@ repositories:
       multipaz-maintainers: maintain
       multipaz-developer-website-maintainers: maintain
       multipaz-team: triage
+      security-managers: read
     visibility: public
   - name: multipaz-identity-reader
     teams:
       multipaz-admins: admin
       multipaz-maintainers: maintain
       multipaz-team: triage
+      security-managers: read
     visibility: public
   - name: multipaz-developer-website
     teams:
@@ -440,6 +469,7 @@ repositories:
       multipaz-developer-website-maintainers: maintain
       multipaz-maintainers: maintain
       multipaz-team: triage
+      security-managers: read
     visibility: public
   - name: openwallet-foundation-landscape
     visibility: private
@@ -451,6 +481,7 @@ repositories:
       owl-agent-test-harness-committers: triage
       owl-akrida-admins: admin
       owl-akrida-committers: triage
+      security-managers: read
     visibility: public
   - name: owl-mobile-wallet-test-harness
     teams:
@@ -458,31 +489,37 @@ repositories:
       bifold-wallet-maintainers: maintain
       owl-mobile-wallet-test-harness-admins: admin
       owl-mobile-wallet-test-harness-committers: maintain
+      security-managers: read
     visibility: public
   - name: project-proposals
     teams:
+      security-managers: read
       tac: maintain
     visibility: public
   - name: safe-wallet-sig
     teams:
       safe-wallet-sig-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: sd-jwt-js
     teams:
       sd-jwt-js-maintainers: maintain
       sd-jwt-js-admin: admin
+      security-managers: read
     visibility: public
   - name: tac
     teams:
+      security-managers: read
       tac: maintain
     visibility: public
   - name: owl-agent-test-harness
     teams:
       acapy-committers: maintain
-      credo-maintainers: maintain
       bots: maintain
+      credo-maintainers: maintain
       owl-agent-test-harness-admins: admin
       owl-agent-test-harness-committers: maintain
+      security-managers: read
     visibility: public
   - name: owl-akrida
     teams:
@@ -490,9 +527,11 @@ repositories:
       credo-maintainers: maintain
       owl-akrida-admins: admin
       owl-akrida-committers: maintain
+      security-managers: read
     visibility: public
   - name: vcx
     teams:
-      vcx-maintainers: maintain
       bots: maintain
+      security-managers: read
+      vcx-maintainers: maintain
     visibility: public
