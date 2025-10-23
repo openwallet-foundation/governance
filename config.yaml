@@ -286,12 +286,11 @@ teams:
     maintainers:
       - skounis
     members:
-      - davidz25
-      - rolsonquadras
-      - stefan-kauhaus
       - aceshim
+      - davidz25
+      - stare893
+      - stefan-kauhaus
       - swcurran
-      - wenjing
   - name: vcx-maintainers
     maintainers:
       - gmulhearn
