@@ -473,6 +473,9 @@ repositories:
       security-managers: read
     visibility: public
   - name: openwallet-foundation-landscape
+    teams:
+      lf-employees: maintain
+      security-managers: read
     visibility: private
   - name: owl
     teams:
