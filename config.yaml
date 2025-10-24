@@ -189,6 +189,7 @@ teams:
       - VishnuSanal
       - itsme291
       - hanluOMH
+      - TheBlackBit
   - name: multipaz-maintainers
     maintainers:
       - davidz25
@@ -213,6 +214,7 @@ teams:
       - VishnuSanal
       - itsme291
       - hanluOMH
+      - TheBlackBit
   - name: owl-agent-test-harness-admins
     maintainers:
       - nodlesh
