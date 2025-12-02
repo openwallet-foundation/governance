@@ -71,9 +71,9 @@ teams:
       - cvarjao
       - berendsliedrecht
       - genaris
-#  - name: architecture-sig-maintainers
-#    maintainers:
-#      - ryjones
+  #  - name: architecture-sig-maintainers
+  #    maintainers:
+  #      - ryjones
   - name: bifold-wallet-admins
     maintainers:
       - jleach
@@ -91,6 +91,7 @@ teams:
       - jcdrouin21
       - MacDeluca
       - MosCD3
+      - LippaC-OPS
       - thiagoromanos
   - name: bots
     maintainers:
@@ -368,10 +369,10 @@ repositories:
       askar-maintainers: maintain
       security-managers: read
     visibility: public
-#  - name: architecture-sig
-#    teams:
-#      architecture-sig-maintainers: maintain
-#    visibility: public
+  #  - name: architecture-sig
+  #    teams:
+  #      architecture-sig-maintainers: maintain
+  #    visibility: public
   - name: bifold-wallet
     teams:
       bifold-wallet-admins: admin
