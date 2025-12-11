@@ -182,6 +182,7 @@ teams:
       - davidz25
     members:
       - troykensinger
+      - fatemajanahi8-spec
   - name: multipaz-developer-website-maintainers
     maintainers:
       - davidz25
@@ -208,6 +209,7 @@ teams:
       - TheCoryBarker
       - jaredkidd
       - aboheneadu
+      - fatemajanahi8-spec
   - name: multipaz-team
     maintainers:
       - davidz25
