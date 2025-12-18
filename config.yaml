@@ -465,6 +465,7 @@ repositories:
     teams:
       multipaz-admins: admin
       multipaz-maintainers: maintain
+      multipaz-developer-website-maintainers: maintain
       multipaz-team: triage
       security-managers: read
     visibility: public
