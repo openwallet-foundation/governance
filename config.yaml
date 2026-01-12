@@ -290,9 +290,10 @@ teams:
       - ryjones
   - name: tac
     maintainers:
+      - aceshim 
       - skounis
     members:
-      - aceshim
+      - bryanwche
       - davidz25
       - stare893
       - stefan-kauhaus
