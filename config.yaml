@@ -431,6 +431,7 @@ repositories:
     visibility: public
   - name: governance
     teams:
+      lf-employees: maintain
       security-managers: read
       tac: maintain
     visibility: public
