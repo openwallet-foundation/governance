@@ -228,6 +228,7 @@ teams:
       - swcurran
       - PatStLouis
     members:
+      - KimEbert42
       - AmarjeetAkv
       - jamshale
       - gmulhearn
@@ -255,6 +256,7 @@ teams:
       - anwalker293
       - loneil
       - GHkrishna
+      - PatStLouis
       - dbluhm
   - name: owl-mobile-wallet-test-harness-admins
     maintainers:
@@ -266,6 +268,8 @@ teams:
       - al-rosenthal
     members:
       - AmarjeetAkv
+      - KimEbert42
+      - PatStLouis
   - name: safe-wallet-sig-maintainers
     maintainers:
       - skounis
@@ -487,11 +491,11 @@ repositories:
   - name: owl
     teams:
       owl-mobile-wallet-test-harness-admins: admin
-      owl-mobile-wallet-test-harness-committers: triage
+      owl-mobile-wallet-test-harness-committers: write
       owl-agent-test-harness-admins: admin
-      owl-agent-test-harness-committers: triage
+      owl-agent-test-harness-committers: write
       owl-akrida-admins: admin
-      owl-akrida-committers: triage
+      owl-akrida-committers: write
       security-managers: read
     visibility: public
   - name: owl-mobile-wallet-test-harness
