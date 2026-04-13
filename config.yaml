@@ -483,6 +483,13 @@ repositories:
       multipaz-team: triage
       security-managers: read
     visibility: public
+  - name: multipaz-wallet
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-team: triage
+      security-managers: read
+    visibility: public
   - name: openwallet-foundation-landscape
     teams:
       lf-employees: maintain
