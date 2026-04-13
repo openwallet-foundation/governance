@@ -452,18 +452,18 @@ repositories:
       multipaz-team: triage
       security-managers: read
     visibility: public
-  - name: multipaz-extras
+  - name: multipaz-developer-website
     teams:
       multipaz-admins: admin
+      multipaz-developer-website-maintainers: maintain
       multipaz-maintainers: maintain
       multipaz-team: triage
       security-managers: read
     visibility: public
-  - name: multipaz-samples
+  - name: multipaz-extras
     teams:
       multipaz-admins: admin
       multipaz-maintainers: maintain
-      multipaz-developer-website-maintainers: maintain
       multipaz-team: triage
       security-managers: read
     visibility: public
@@ -475,11 +475,11 @@ repositories:
       multipaz-team: triage
       security-managers: read
     visibility: public
-  - name: multipaz-developer-website
+  - name: multipaz-samples
     teams:
       multipaz-admins: admin
-      multipaz-developer-website-maintainers: maintain
       multipaz-maintainers: maintain
+      multipaz-developer-website-maintainers: maintain
       multipaz-team: triage
       security-managers: read
     visibility: public
