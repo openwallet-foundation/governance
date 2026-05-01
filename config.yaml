@@ -172,6 +172,11 @@ teams:
       - WadeBarnes
       - swcurran
       - i5okie
+  - name: lf-employees-pmo
+    maintainers:
+      - ryjones
+    members:
+      - NSouthernLF
   - name: lf-employees
     maintainers:
       - ryjones
@@ -533,6 +538,12 @@ repositories:
     teams:
       security-managers: read
       tac: maintain
+    visibility: public
+  - name: technical-project-charters
+    teams:
+      lf-employees: maintain
+      lf-employees-pmo: maintain
+      security-managers: read
     visibility: public
   - name: owl-agent-test-harness
     teams:
