@@ -409,6 +409,12 @@ repositories:
       credo-maintainers: maintain
       security-managers: read
     visibility: public
+  - name: credo-ts-didcomm-ext
+    teams:
+      credo-admins: admin
+      credo-maintainers: maintain
+      security-managers: read
+    visibility: public
   - name: didcomm-mediator-service
     teams:
       didcomm-admins: admin
