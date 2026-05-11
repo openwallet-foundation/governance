@@ -165,6 +165,12 @@ teams:
   - name: digital-wallet-and-agent-overviews-sig-admins
     maintainers:
       - cre8
+  - name: eudiplo-admins
+    maintainers:
+      - cre8
+  - name: eudiplo-maintainers
+    maintainers:
+      - cre8
   - name: helm-charts-admins
     maintainers:
       - esune
@@ -443,6 +449,11 @@ repositories:
       digital-wallet-and-agent-overviews-sig-admins: admin
       digital-wallet-and-agent-overviews-sig-maintainers: maintain
       security-managers: read
+    visibility: public
+  - name: eudiplo
+    teams:
+      eudiplo-maintainers: maintain
+      eudiplo-admins: admin
     visibility: public
   - name: governance
     teams:
