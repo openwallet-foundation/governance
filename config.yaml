@@ -208,20 +208,10 @@ teams:
     maintainers:
       - davidz25
     members:
-      - 15characterlimi
-      - koukarine
       - dyiop
       - GarethCOliver
-      - sethmoo
       - sorotokin
-      - suzannajiwani
-      - troykensinger
-      - kdeus
-      - hzawawy
-      - TheCoryBarker
       - jaredkidd
-      - aboheneadu
-      - fatemajanahi8-spec
   - name: multipaz-team
     maintainers:
       - davidz25
@@ -499,6 +489,14 @@ repositories:
       security-managers: read
     visibility: public
   - name: multipaz-samples
+    teams:
+      multipaz-admins: admin
+      multipaz-maintainers: maintain
+      multipaz-developer-website-maintainers: maintain
+      multipaz-team: triage
+      security-managers: read
+    visibility: public
+  - name: multipaz-utopia
     teams:
       multipaz-admins: admin
       multipaz-maintainers: maintain
