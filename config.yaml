@@ -445,6 +445,7 @@ repositories:
     teams:
       eudiplo-maintainers: maintain
       eudiplo-admins: admin
+      security-managers: read
     visibility: public
   - name: governance
     teams:
