@@ -111,6 +111,7 @@ teams:
       - berendsliedrecht
       - genaris
       - hacdias
+      - rmlearney-digicatapult
   - name: didcomm-mediator-credo-admin
     maintainers:
       - TimoGlastra
