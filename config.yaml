@@ -279,19 +279,6 @@ teams:
       - skounis
     members:
       - darrellodonnell
-  - name: sd-jwt-js-admin
-    maintainers:
-      - cre8
-    members:
-      - lukasjhan
-  - name: sd-jwt-js-maintainers
-    maintainers:
-      - cre8
-    members:
-      - aceshim
-      - berendsliedrecht
-      - lukasjhan
-      - zustkeeper
   - name: security-managers
     maintainers:
       - SeanBohan
@@ -545,12 +532,6 @@ repositories:
   - name: safe-wallet-sig
     teams:
       safe-wallet-sig-maintainers: maintain
-      security-managers: read
-    visibility: public
-  - name: sd-jwt-js
-    teams:
-      sd-jwt-js-maintainers: maintain
-      sd-jwt-js-admin: admin
       security-managers: read
     visibility: public
   - name: tac
