@@ -191,6 +191,7 @@ teams:
     members:
       - troykensinger
       - fatemajanahi8-spec
+      - justinbrickell
   - name: multipaz-developer-website-maintainers
     maintainers:
       - davidz25
@@ -199,6 +200,7 @@ teams:
       - VishnuSanal
       - hanluOMH
       - TheBlackBit
+      - justinbrickell
   - name: multipaz-maintainers
     maintainers:
       - davidz25
@@ -207,6 +209,7 @@ teams:
       - GarethCOliver
       - sorotokin
       - jaredkidd
+      - justinbrickell
   - name: multipaz-team
     maintainers:
       - davidz25
@@ -215,6 +218,7 @@ teams:
       - VishnuSanal
       - hanluOMH
       - TheBlackBit
+      - justinbrickell
   - name: owl-agent-test-harness-admins
     maintainers:
       - nodlesh
