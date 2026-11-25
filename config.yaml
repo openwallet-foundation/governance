@@ -363,16 +363,6 @@ repositories:
       askar-maintainers: maintain
       security-managers: read
     visibility: public
-  #  - name: architecture-sig
-  #    teams:
-  #      architecture-sig-maintainers: maintain
-  #    visibility: public
-  - name: bifold-wallet
-    teams:
-      bifold-wallet-admins: admin
-      bifold-wallet-maintainers: maintain
-      security-managers: read
-    visibility: public
   - name: credo-ts
     teams:
       credo-admins: admin
